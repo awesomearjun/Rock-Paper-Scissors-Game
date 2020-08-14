@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=PT%20Sans');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border-radius: 5px;
+    padding: 180px;
+    border: 1px solid grey;
+}
+
+button {
+    font-family: PT Sans;
+    padding: 12px;
+    color: white;
+    background: blue;
+    border-radius: 5px;
+    border: none;
+}
